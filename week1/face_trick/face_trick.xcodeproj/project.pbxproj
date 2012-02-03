@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2959D4E614D5EB320079E50A /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2959D4D314D5EB320079E50A /* ofxCvColorImage.cpp */; };
+		2959D4E714D5EB320079E50A /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2959D4D614D5EB320079E50A /* ofxCvContourFinder.cpp */; };
+		2959D4E814D5EB320079E50A /* ofxCvFloatImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2959D4D814D5EB320079E50A /* ofxCvFloatImage.cpp */; };
+		2959D4E914D5EB320079E50A /* ofxCvGrayscaleImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2959D4DA14D5EB320079E50A /* ofxCvGrayscaleImage.cpp */; };
+		2959D4EA14D5EB320079E50A /* ofxCvHaarFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2959D4DC14D5EB320079E50A /* ofxCvHaarFinder.cpp */; };
+		2959D4EB14D5EB320079E50A /* ofxCvImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2959D4DE14D5EB320079E50A /* ofxCvImage.cpp */; };
+		2959D4EC14D5EB320079E50A /* ofxCvShortImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2959D4E114D5EB320079E50A /* ofxCvShortImage.cpp */; };
+		2959D61A14D5F23F0079E50A /* opencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2959D61914D5F23F0079E50A /* opencv.a */; };
+		2986871714D5C22300219AA0 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986871614D5C22300219AA0 /* AGL.framework */; };
+		2986871914D5C22300219AA0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986871814D5C22300219AA0 /* ApplicationServices.framework */; };
+		2986871B14D5C22300219AA0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986871A14D5C22300219AA0 /* AudioToolbox.framework */; };
+		2986871D14D5C22300219AA0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986871C14D5C22300219AA0 /* Carbon.framework */; };
+		2986871F14D5C22300219AA0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986871E14D5C22300219AA0 /* CoreAudio.framework */; };
+		2986872114D5C22300219AA0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986872014D5C22300219AA0 /* CoreFoundation.framework */; };
+		2986872314D5C22300219AA0 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986872214D5C22300219AA0 /* CoreServices.framework */; };
+		2986872514D5C22300219AA0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986872414D5C22300219AA0 /* OpenGL.framework */; };
+		2986872714D5C22300219AA0 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986872614D5C22300219AA0 /* QuickTime.framework */; };
+		2986872914D5C22300219AA0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986872814D5C22300219AA0 /* AppKit.framework */; };
+		2986872B14D5C22300219AA0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986872A14D5C22300219AA0 /* Cocoa.framework */; };
+		2986872D14D5C22300219AA0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2986872C14D5C22300219AA0 /* IOKit.framework */; };
+		2986873314D5C22300219AA0 /* face_trick.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2986873214D5C22300219AA0 /* face_trick.icns */; };
+		2986873614D5C22300219AA0 /* face_trick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2986873514D5C22300219AA0 /* face_trick.cpp */; };
+		2986873914D5C22300219AA0 /* face_trick.h in Resources */ = {isa = PBXBuildFile; fileRef = 2986873814D5C22300219AA0 /* face_trick.h */; };
+		2986873B14D5C22300219AA0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2986873A14D5C22300219AA0 /* main.cpp */; };
+		29C89F1314D5CF2700AB431E /* macGlutfix.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C89F1214D5CF2700AB431E /* macGlutfix.m */; };
+		29D3DD9514D5C75C0006E623 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D3DD9414D5C75C0006E623 /* GLUT.framework */; };
+		29D3DD9714D5C7620006E623 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29D3DD9414D5C75C0006E623 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2986871014D5C22300219AA0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				29D3DD9714D5C7620006E623 /* GLUT.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2959D4D214D5EB320079E50A /* ofxCvBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvBlob.h; sourceTree = "<group>"; };
+		2959D4D314D5EB320079E50A /* ofxCvColorImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvColorImage.cpp; sourceTree = "<group>"; };
+		2959D4D414D5EB320079E50A /* ofxCvColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvColorImage.h; sourceTree = "<group>"; };
+		2959D4D514D5EB320079E50A /* ofxCvConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvConstants.h; sourceTree = "<group>"; };
+		2959D4D614D5EB320079E50A /* ofxCvContourFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvContourFinder.cpp; sourceTree = "<group>"; };
+		2959D4D714D5EB320079E50A /* ofxCvContourFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvContourFinder.h; sourceTree = "<group>"; };
+		2959D4D814D5EB320079E50A /* ofxCvFloatImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvFloatImage.cpp; sourceTree = "<group>"; };
+		2959D4D914D5EB320079E50A /* ofxCvFloatImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvFloatImage.h; sourceTree = "<group>"; };
+		2959D4DA14D5EB320079E50A /* ofxCvGrayscaleImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvGrayscaleImage.cpp; sourceTree = "<group>"; };
+		2959D4DB14D5EB320079E50A /* ofxCvGrayscaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvGrayscaleImage.h; sourceTree = "<group>"; };
+		2959D4DC14D5EB320079E50A /* ofxCvHaarFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvHaarFinder.cpp; sourceTree = "<group>"; };
+		2959D4DD14D5EB320079E50A /* ofxCvHaarFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvHaarFinder.h; sourceTree = "<group>"; };
+		2959D4DE14D5EB320079E50A /* ofxCvImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvImage.cpp; sourceTree = "<group>"; };
+		2959D4DF14D5EB320079E50A /* ofxCvImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvImage.h; sourceTree = "<group>"; };
+		2959D4E014D5EB320079E50A /* ofxCvMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvMain.h; sourceTree = "<group>"; };
+		2959D4E114D5EB320079E50A /* ofxCvShortImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxCvShortImage.cpp; sourceTree = "<group>"; };
+		2959D4E214D5EB320079E50A /* ofxCvShortImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvShortImage.h; sourceTree = "<group>"; };
+		2959D4E314D5EB320079E50A /* ofxOpenCv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOpenCv.h; sourceTree = "<group>"; };
+		2959D61914D5F23F0079E50A /* opencv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = opencv.a; path = ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a; sourceTree = "<group>"; };
+		2986871214D5C22300219AA0 /* face_trick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = face_trick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2986871614D5C22300219AA0 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		2986871814D5C22300219AA0 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		2986871A14D5C22300219AA0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		2986871C14D5C22300219AA0 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		2986871E14D5C22300219AA0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		2986872014D5C22300219AA0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		2986872214D5C22300219AA0 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		2986872414D5C22300219AA0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		2986872614D5C22300219AA0 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		2986872814D5C22300219AA0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2986872A14D5C22300219AA0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2986872C14D5C22300219AA0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		2986873014D5C22300219AA0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = bin/data/.gitignore; sourceTree = "<group>"; };
+		2986873214D5C22300219AA0 /* face_trick.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = face_trick.icns; path = resources/face_trick.icns; sourceTree = "<group>"; };
+		2986873514D5C22300219AA0 /* face_trick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = face_trick.cpp; path = src/face_trick.cpp; sourceTree = "<group>"; };
+		2986873814D5C22300219AA0 /* face_trick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = face_trick.h; path = src/face_trick.h; sourceTree = "<group>"; };
+		2986873A14D5C22300219AA0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		2986873C14D5C22300219AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Xcode/Info.plist; sourceTree = "<group>"; };
+		2986873D14D5C22300219AA0 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Xcode/Prefix.pch; sourceTree = "<group>"; };
+		29C89F1114D5CF2700AB431E /* macGlutfix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macGlutfix.h; path = src/macGlutfix.h; sourceTree = "<group>"; };
+		29C89F1214D5CF2700AB431E /* macGlutfix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = macGlutfix.m; path = src/macGlutfix.m; sourceTree = "<group>"; };
+		29D3DD9414D5C75C0006E623 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2986870D14D5C22300219AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2986871714D5C22300219AA0 /* AGL.framework in Frameworks */,
+				2986871914D5C22300219AA0 /* ApplicationServices.framework in Frameworks */,
+				2986871B14D5C22300219AA0 /* AudioToolbox.framework in Frameworks */,
+				2986871D14D5C22300219AA0 /* Carbon.framework in Frameworks */,
+				2986871F14D5C22300219AA0 /* CoreAudio.framework in Frameworks */,
+				2986872114D5C22300219AA0 /* CoreFoundation.framework in Frameworks */,
+				2986872314D5C22300219AA0 /* CoreServices.framework in Frameworks */,
+				2986872514D5C22300219AA0 /* OpenGL.framework in Frameworks */,
+				2986872714D5C22300219AA0 /* QuickTime.framework in Frameworks */,
+				2986872914D5C22300219AA0 /* AppKit.framework in Frameworks */,
+				2986872B14D5C22300219AA0 /* Cocoa.framework in Frameworks */,
+				2986872D14D5C22300219AA0 /* IOKit.framework in Frameworks */,
+				29D3DD9514D5C75C0006E623 /* GLUT.framework in Frameworks */,
+				2959D61A14D5F23F0079E50A /* opencv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2959D47914D5EB320079E50A /* ofxOpenCv */ = {
+			isa = PBXGroup;
+			children = (
+				2959D4D114D5EB320079E50A /* src */,
+			);
+			name = ofxOpenCv;
+			path = ../../../addons/ofxOpenCv;
+			sourceTree = "<group>";
+		};
+		2959D4D114D5EB320079E50A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2959D4D214D5EB320079E50A /* ofxCvBlob.h */,
+				2959D4D314D5EB320079E50A /* ofxCvColorImage.cpp */,
+				2959D4D414D5EB320079E50A /* ofxCvColorImage.h */,
+				2959D4D514D5EB320079E50A /* ofxCvConstants.h */,
+				2959D4D614D5EB320079E50A /* ofxCvContourFinder.cpp */,
+				2959D4D714D5EB320079E50A /* ofxCvContourFinder.h */,
+				2959D4D814D5EB320079E50A /* ofxCvFloatImage.cpp */,
+				2959D4D914D5EB320079E50A /* ofxCvFloatImage.h */,
+				2959D4DA14D5EB320079E50A /* ofxCvGrayscaleImage.cpp */,
+				2959D4DB14D5EB320079E50A /* ofxCvGrayscaleImage.h */,
+				2959D4DC14D5EB320079E50A /* ofxCvHaarFinder.cpp */,
+				2959D4DD14D5EB320079E50A /* ofxCvHaarFinder.h */,
+				2959D4DE14D5EB320079E50A /* ofxCvImage.cpp */,
+				2959D4DF14D5EB320079E50A /* ofxCvImage.h */,
+				2959D4E014D5EB320079E50A /* ofxCvMain.h */,
+				2959D4E114D5EB320079E50A /* ofxCvShortImage.cpp */,
+				2959D4E214D5EB320079E50A /* ofxCvShortImage.h */,
+				2959D4E314D5EB320079E50A /* ofxOpenCv.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2986870514D5C22300219AA0 = {
+			isa = PBXGroup;
+			children = (
+				2959D61914D5F23F0079E50A /* opencv.a */,
+				2959D47914D5EB320079E50A /* ofxOpenCv */,
+				2986872E14D5C22300219AA0 /* face_trick */,
+				2986871514D5C22300219AA0 /* Frameworks */,
+				2986871314D5C22300219AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2986871314D5C22300219AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2986871214D5C22300219AA0 /* face_trick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2986871514D5C22300219AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D3DD9414D5C75C0006E623 /* GLUT.framework */,
+				2986871614D5C22300219AA0 /* AGL.framework */,
+				2986871814D5C22300219AA0 /* ApplicationServices.framework */,
+				2986871A14D5C22300219AA0 /* AudioToolbox.framework */,
+				2986871C14D5C22300219AA0 /* Carbon.framework */,
+				2986871E14D5C22300219AA0 /* CoreAudio.framework */,
+				2986872014D5C22300219AA0 /* CoreFoundation.framework */,
+				2986872214D5C22300219AA0 /* CoreServices.framework */,
+				2986872414D5C22300219AA0 /* OpenGL.framework */,
+				2986872614D5C22300219AA0 /* QuickTime.framework */,
+				2986872814D5C22300219AA0 /* AppKit.framework */,
+				2986872A14D5C22300219AA0 /* Cocoa.framework */,
+				2986872C14D5C22300219AA0 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2986872E14D5C22300219AA0 /* face_trick */ = {
+			isa = PBXGroup;
+			children = (
+				2986872F14D5C22300219AA0 /* Data */,
+				2986873114D5C22300219AA0 /* Resources */,
+				2986873414D5C22300219AA0 /* Source */,
+				2986873714D5C22300219AA0 /* Headers */,
+			);
+			path = face_trick;
+			sourceTree = "<group>";
+		};
+		2986872F14D5C22300219AA0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2986873014D5C22300219AA0 /* .gitignore */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2986873114D5C22300219AA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2986873214D5C22300219AA0 /* face_trick.icns */,
+				2986873C14D5C22300219AA0 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2986873414D5C22300219AA0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				29C89F1114D5CF2700AB431E /* macGlutfix.h */,
+				29C89F1214D5CF2700AB431E /* macGlutfix.m */,
+				2986873514D5C22300219AA0 /* face_trick.cpp */,
+				2986873A14D5C22300219AA0 /* main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		2986873714D5C22300219AA0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2986873814D5C22300219AA0 /* face_trick.h */,
+				2986873D14D5C22300219AA0 /* Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2986871114D5C22300219AA0 /* face_trick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2986874014D5C22300219AA0 /* Build configuration list for PBXNativeTarget "face_trick" */;
+			buildPhases = (
+				2986870C14D5C22300219AA0 /* Sources */,
+				2986870D14D5C22300219AA0 /* Frameworks */,
+				2986870E14D5C22300219AA0 /* ShellScript */,
+				2986870F14D5C22300219AA0 /* Resources */,
+				2986871014D5C22300219AA0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = face_trick;
+			productName = face_trick;
+			productReference = 2986871214D5C22300219AA0 /* face_trick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2986870714D5C22300219AA0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2986870A14D5C22300219AA0 /* Build configuration list for PBXProject "face_trick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2986870514D5C22300219AA0;
+			productRefGroup = 2986871314D5C22300219AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2986871114D5C22300219AA0 /* face_trick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2986870F14D5C22300219AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2986873314D5C22300219AA0 /* face_trick.icns in Resources */,
+				2986873914D5C22300219AA0 /* face_trick.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2986870E14D5C22300219AA0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy FMOD Ex to build product\ncp -f $OF_PATH/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2986870C14D5C22300219AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2986873614D5C22300219AA0 /* face_trick.cpp in Sources */,
+				2986873B14D5C22300219AA0 /* main.cpp in Sources */,
+				29C89F1314D5CF2700AB431E /* macGlutfix.m in Sources */,
+				2959D4E614D5EB320079E50A /* ofxCvColorImage.cpp in Sources */,
+				2959D4E714D5EB320079E50A /* ofxCvContourFinder.cpp in Sources */,
+				2959D4E814D5EB320079E50A /* ofxCvFloatImage.cpp in Sources */,
+				2959D4E914D5EB320079E50A /* ofxCvGrayscaleImage.cpp in Sources */,
+				2959D4EA14D5EB320079E50A /* ofxCvHaarFinder.cpp in Sources */,
+				2959D4EB14D5EB320079E50A /* ofxCvImage.cpp in Sources */,
+				2959D4EC14D5EB320079E50A /* ofxCvShortImage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2986873E14D5C22300219AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/$(PRODUCT_NAME)/bin/";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(OF_PATH)/libs/glut/lib/osx/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_CAIRO = "$(OF_PATH)/libs/cairo/include/cairo";
+				HEADER_FMODEX = "$(OF_PATH)/libs/fmodex/include";
+				HEADER_FREEIMAGE = "$(OF_PATH)/libs/FreeImage/include";
+				HEADER_FREETYPE = "$(OF_PATH)/libs/freetype/include";
+				HEADER_FREETYPE2 = "$(OF_PATH)/libs/freetype/include/freetype2";
+				HEADER_GLEW = "$(OF_PATH)/libs/glew/include";
+				HEADER_OF = "$(OF_PATH)/libs/openFrameworks/**";
+				HEADER_POCO = "$(OF_PATH)/libs/poco/include";
+				HEADER_RTAUDIO = "$(OF_PATH)/libs/rtaudio/include";
+				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
+				HEADER_TESS2 = "$(OF_PATH)/libs/tess2/include";
+				LIB_CAIRO1 = "$(OF_PATH)/libs/cairo/lib/osx/cairo-script-interpreter.a";
+				LIB_CAIRO2 = "$(OF_PATH)/libs/cairo/lib/osx/cairo.a";
+				LIB_CAIRO3 = "$(OF_PATH)/libs/cairo/lib/osx/pixman-1.a";
+				LIB_FMODEX = "$(OF_PATH)/libs/fmodex/lib/osx/libfmodex.dylib";
+				LIB_FREEIMAGE = "$(OF_PATH)/libs/FreeImage/lib/osx/freeimage.a";
+				LIB_FREETYPE = "$(OF_PATH)/libs/freetype/lib/osx/freetype.a";
+				LIB_GLEW = "$(OF_PATH)/libs/glew/lib/osx/glew.a";
+				LIB_GLUT = "$(OF_PATH)/libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT";
+				LIB_OF_DEBUG = "$(OF_PATH)/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a";
+				LIB_POCOFOUNDATION = "$(OF_PATH)/libs/poco/lib/osx/PocoFoundation.a";
+				LIB_POCONET = "$(OF_PATH)/libs/poco/lib/osx/PocoNet.a";
+				LIB_POCOUTIL = "$(OF_PATH)/libs/poco/lib/osx/PocoUtil.a";
+				LIB_POCOXML = "$(OF_PATH)/libs/poco/lib/osx/PocoXML.a";
+				LIB_RTAUDIO = "$(OF_PATH)/libs/rtAudio/lib/osx/rtAudio.a";
+				LIB_TESS = "$(OF_PATH)/libs/tess2/lib/osx/tess2.a";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OF_CORE_HEADERS = "$(HEADER_OF) $(HEADER_POCO) $(HEADER_FREETYPE) $(HEADER_FREETYPE2) $(HEADER_FMODEX) $(HEADER_GLEW) $(HEADER_FREEIMAGE) $(HEADER_TESS2) $(HEADER_CAIRO) $(HEADER_RTAUDIO)";
+				OF_CORE_LIBS = "$(LIB_OF_DEBUG) $(LIB_POCOFOUNDATION) $(LIB_POCONET) $(LIB_POCOXML) $(LIB_POCOUTIL) $(LIB_TESS) $(LIB_GLEW) $(LIB_CAIRO1) $(LIB_CAIRO2) $(LIB_CAIRO3) $(LIB_FMODEX) $(LIB_RTAUDIO)";
+				OF_PATH = ../../..;
+				OTHER_LDFLAGS = (
+					"$(OF_PATH)/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a",
+					"$(OF_CORE_LIBS)",
+				);
+			};
+			name = Debug;
+		};
+		2986873F14D5C22300219AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/$(PRODUCT_NAME)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(OF_PATH)/libs/glut/lib/osx/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_CAIRO = "$(OF_PATH)/libs/cairo/include/cairo";
+				HEADER_FMODEX = "$(OF_PATH)/libs/fmodex/include";
+				HEADER_FREEIMAGE = "$(OF_PATH)/libs/FreeImage/include";
+				HEADER_FREETYPE = "$(OF_PATH)/libs/freetype/include";
+				HEADER_FREETYPE2 = "$(OF_PATH)/libs/freetype/include/freetype2";
+				HEADER_GLEW = "$(OF_PATH)/libs/glew/include";
+				HEADER_OF = "$(OF_PATH)/libs/openFrameworks/**";
+				HEADER_POCO = "$(OF_PATH)/libs/poco/include";
+				HEADER_RTAUDIO = "$(OF_PATH)/libs/rtaudio/include";
+				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
+				HEADER_TESS2 = "$(OF_PATH)/libs/tess2/include";
+				LIB_CAIRO1 = "$(OF_PATH)/libs/cairo/lib/osx/cairo-script-interpreter.a";
+				LIB_CAIRO2 = "$(OF_PATH)/libs/cairo/lib/osx/cairo.a";
+				LIB_CAIRO3 = "$(OF_PATH)/libs/cairo/lib/osx/pixman-1.a";
+				LIB_FMODEX = "$(OF_PATH)/libs/fmodex/lib/osx/libfmodex.dylib";
+				LIB_FREEIMAGE = "$(OF_PATH)/libs/FreeImage/lib/osx/freeimage.a";
+				LIB_FREETYPE = "$(OF_PATH)/libs/freetype/lib/osx/freetype.a";
+				LIB_GLEW = "$(OF_PATH)/libs/glew/lib/osx/glew.a";
+				LIB_GLUT = "$(OF_PATH)/libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT";
+				LIB_OF_DEBUG = "$(OF_PATH)/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a";
+				LIB_POCOFOUNDATION = "$(OF_PATH)/libs/poco/lib/osx/PocoFoundation.a";
+				LIB_POCONET = "$(OF_PATH)/libs/poco/lib/osx/PocoNet.a";
+				LIB_POCOUTIL = "$(OF_PATH)/libs/poco/lib/osx/PocoUtil.a";
+				LIB_POCOXML = "$(OF_PATH)/libs/poco/lib/osx/PocoXML.a";
+				LIB_RTAUDIO = "$(OF_PATH)/libs/rtAudio/lib/osx/rtAudio.a";
+				LIB_TESS = "$(OF_PATH)/libs/tess2/lib/osx/tess2.a";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OF_CORE_HEADERS = "$(HEADER_OF) $(HEADER_POCO) $(HEADER_FREETYPE) $(HEADER_FREETYPE2) $(HEADER_FMODEX) $(HEADER_GLEW) $(HEADER_FREEIMAGE) $(HEADER_TESS2) $(HEADER_CAIRO) $(HEADER_RTAUDIO)";
+				OF_CORE_LIBS = "$(LIB_OF_DEBUG) $(LIB_POCOFOUNDATION) $(LIB_POCONET) $(LIB_POCOXML) $(LIB_POCOUTIL) $(LIB_TESS) $(LIB_GLEW) $(LIB_CAIRO1) $(LIB_CAIRO2) $(LIB_CAIRO3) $(LIB_FMODEX) $(LIB_RTAUDIO)";
+				OF_PATH = ../../..;
+				OTHER_LDFLAGS = (
+					"$(OF_PATH)/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a",
+					"$(OF_CORE_LIBS)",
+				);
+			};
+			name = Release;
+		};
+		2986874114D5C22300219AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/glut/lib/osx\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = face_trick/Xcode/Prefix.pch;
+				INFOPLIST_FILE = face_trick/Xcode/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/osx\"",
+				);
+				OF_CORE_HEADERS = "$(HEADER_OF) $(HEADER_POCO) $(HEADER_FREETYPE) $(HEADER_FREETYPE2) $(HEADER_FMODEX) $(HEADER_GLEW) $(HEADER_FREEIMAGE) $(HEADER_TESS2) $(HEADER_CAIRO) $(HEADER_RTAUDIO) $(OF_PATH)/addons/ofxOpenCv/src  $(OF_PATH)/addons/ofxOpenCv/libs/opencv/include  $(OF_PATH)/addons/ofxOpenCv/libs/opencv/include/opencv ";
+				OF_CORE_LIBS = "$(LIB_OF_DEBUG) $(LIB_POCOFOUNDATION) $(LIB_POCONET) $(LIB_POCOXML) $(LIB_POCOUTIL) $(LIB_TESS) $(LIB_GLEW) $(LIB_CAIRO1) $(LIB_CAIRO2) $(LIB_CAIRO3) $(LIB_FMODEX) ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2986874214D5C22300219AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/glut/lib/osx\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = face_trick/Xcode/Prefix.pch;
+				INFOPLIST_FILE = face_trick/Xcode/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../addons/ofxOpenCv/libs/opencv/lib/osx\"",
+				);
+				OF_CORE_HEADERS = "$(HEADER_OF) $(HEADER_POCO) $(HEADER_FREETYPE) $(HEADER_FREETYPE2) $(HEADER_FMODEX) $(HEADER_GLEW) $(HEADER_FREEIMAGE) $(HEADER_TESS2) $(HEADER_CAIRO) $(HEADER_RTAUDIO) $(OF_PATH)/addons/ofxOpenCv/src  $(OF_PATH)/addons/ofxOpenCv/libs/opencv/include  $(OF_PATH)/addons/ofxOpenCv/libs/opencv/include/opencv ";
+				OF_CORE_LIBS = "$(LIB_OF_DEBUG) $(LIB_POCOFOUNDATION) $(LIB_POCONET) $(LIB_POCOXML) $(LIB_POCOUTIL) $(LIB_TESS) $(LIB_GLEW) $(LIB_CAIRO1) $(LIB_CAIRO2) $(LIB_CAIRO3) $(LIB_FMODEX) ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2986870A14D5C22300219AA0 /* Build configuration list for PBXProject "face_trick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2986873E14D5C22300219AA0 /* Debug */,
+				2986873F14D5C22300219AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2986874014D5C22300219AA0 /* Build configuration list for PBXNativeTarget "face_trick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2986874114D5C22300219AA0 /* Debug */,
+				2986874214D5C22300219AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2986870714D5C22300219AA0 /* Project object */;
+}
