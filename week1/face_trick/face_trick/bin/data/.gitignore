@@ -1,0 +1,5 @@
+# Placeholder for an otherwise empty folder in the project workspace
+# Ignore everything in this directory except the .gitignore file
+*
+!.gitignore
+
