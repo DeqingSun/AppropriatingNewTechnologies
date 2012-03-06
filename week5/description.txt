@@ -1,0 +1,3 @@
+This project uses a reflective sensor to detect user's blink. The sensor is mounted on leg of glasses. When we blink, the distance between our skin and sensor changes. Then the change can be detected and analyzed. I used this signal to take a picture every time I blink.
+
+This work is based on "KOMEKAMI Switch: A Novel Wearable Input Device Using Movement of Temple".
